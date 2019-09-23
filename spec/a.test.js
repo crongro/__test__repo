@@ -1,3 +1,4 @@
+"use strict"
 const _ = require("../src/a.js");
 
 describe('module a test', () => {  
