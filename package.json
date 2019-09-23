@@ -1,0 +1,19 @@
+{
+  "name": "xxxx",
+  "version": "1.0.0",
+  "description": "hello test repository",
+  "main": "a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crongro/__test__repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crongro/__test__repo/issues"
+  },
+  "homepage": "https://github.com/crongro/__test__repo#readme"
+}
