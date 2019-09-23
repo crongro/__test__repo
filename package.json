@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/crongro/__test__repo/issues"
   },
-  "homepage": "https://github.com/crongro/__test__repo#readme"
+  "homepage": "https://github.com/crongro/__test__repo#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
 }
