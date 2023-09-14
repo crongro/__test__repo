@@ -1,4 +1,4 @@
-name: "Boostcamp PR Merge at midnight v4"
+name: " v4"
 
 on:
   schedule:
@@ -56,7 +56,7 @@ jobs:
             
             const {repository:{pullRequests:{edges: list}}} = await github.graphql(query, variables)
             for( let {node} of list) { 
-              console.log(`[LOG] ${node}`);
+              console.log(`[LOG] ${JSON.stringify(node)}`);
              if(node.baseRefName === "main" || !node.labels.nodes.length ) continue;
              const hasReviewlabel = node.labels.nodes.some(item => item.name.toLowerCase() === 'review');
              if(hasReviewlabel) continue;
